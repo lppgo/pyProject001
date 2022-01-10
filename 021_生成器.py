@@ -36,5 +36,12 @@ f = fibonacci(10)  # f 是一个迭代器，由生成器返回生成
 #     except StopIteration:
 #         sys.exit()
 
-for x in f:
-    print(x)
+# for x in f:
+#     print(x)
+
+""" 由生成器返回的迭代器，可使用__next__()来获取下一个值 """
+print(f.__next__())
+print(f.__next__())
+print(f.__next__())
+print(f.__next__())
+print(f.__next__())
