@@ -4,6 +4,6 @@
 
 # -------文件写入--------
 #   追加写入, a--append------
-file = open("./mytext.txt", "a")
+file = open("mytext.txt", "a")
 file.write("\n\nThis is append new line.")
 file.close()

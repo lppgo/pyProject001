@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-file = open("./mytext.txt", "r")
+file = open("mytext.txt", "r")
 
 # content = file.read()
 
