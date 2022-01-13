@@ -28,6 +28,7 @@ def process_data(threadName, q):
             print("%s processing %s" % (threadName, data))
         else:
             queueLock.release()
+            # pass
         time.sleep(1)
 
 
