@@ -1,14 +1,4 @@
 {
-  "python.envFile": "${workspaceFolder}/.env",
-  "python.analysis.extraPaths": [
-    "./src", // 自定义模块的相对路径，可多个，可绝对路径
-    "./modules",
-    "./sources",
-    "/usr/local/lib/python3.8/dist-packages",
-    "/home/lucas/.local/lib/python3.8/site-packages",
-    "D:\\softbox\\python39\\lib\\site-packages"
-  ]
-  //   "python.analysis.diagnosticSeverityOverrides": {
-  //     "reportMissingImports": "none"
-  //   }
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "D:\\SoftBox\\Python39\\python.exe"
 }
