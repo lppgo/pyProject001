@@ -1,53 +1,44 @@
 #!/usr/bin/env python
 
 import threading
-import time
 
 
-class myThread(threading.Thread):
-    def __init__(self, threadID, name, delay):
-        threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.name = name
-        self.delay = delay
-
-    def run(self):
-        print("开始线程 :{}".format(self.name))
-        # 获取锁，用于线程同步
-        threading.Lock.acquire()
-        print_time(self.name, self.delay, 3)
-        # 释放锁
-        print("退出线程 :{}".format(self.name))
-        threading.Lock.release()
+lock = threading.Lock()
+amount = 0
 
 
-def print_time(threadName, delay, counter):
-    while counter:
-        time.sleep(delay)
-        print("%s: %s" % (threadName, time.ctime(time.time())))
-        counter -= 1
+def changeValue(x):
+    global amount
+    amount = amount + x
+    amount = amount - x
 
 
-threads = []
+# 批量运行改值
+def batchRunThread(x):
+    for i in range(100000):
+        lock.acquire()  # 获取锁
+        try:
+            changeValue(x)
+        finally:
+            lock.release()  # 释放锁
 
-# 创建新线程
-thread1 = myThread(1, "thread-1", 2)
-thread2 = myThread(2, "thread-2", 2)
-thread3 = myThread(3, "thread-3", 3)
 
-# 添加线程到线程列表
-threads.append(thread1)
-threads.append(thread2)
-threads.append(thread3)
-
-print(time.ctime(time.time()))
-# 开启新线程
-for t in threads:
-    t.start()
-
-# 等待所有线程完成
-for t in threads:
-    t.join()
+# 创建2个线程
+t1 = threading.Thread(target=batchRunThread, args=(5,), name="Thread1")
+t2 = threading.Thread(target=batchRunThread, args=(15,), name="Thread2")
+t1.start()
+t2.start()
+t1.join()
+t2.join()
 print("子线程完成 ...")
 
+print(amount)
+
 print("退出主线程 ... ")
+
+
+"""
+多线程与多进程最大的不同就是：对于同一个变量，对于多个线程是共享的，但多进程里每个进程各自会copy一份;
+所以，多线程一个重要的问题是多线程之间同步，方式数据竞态；
+线程的调度是由OS决定的
+"""

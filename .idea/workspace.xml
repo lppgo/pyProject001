@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/006_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/007_日期和时间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/008_内置函数.py" afterDir="false" />
+    <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="updates 进程和线程">
+      <change afterPath="$PROJECT_DIR$/030_py高级使用/013_django.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/001_socket_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/001_socket_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/002_smtp_发送邮件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/003_多线程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/003_多线程.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/004_线程同步.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/005_线程安全队列queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/030_py高级使用/001_socket_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/030_py高级使用/001_socket_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030_py高级使用/001_socket_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/030_py高级使用/001_socket_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030_py高级使用/002_smtp_发送邮件.py" beforeDir="false" afterPath="$PROJECT_DIR$/030_py高级使用/002_smtp_发送邮件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030_py高级使用/003_多线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/030_py高级使用/003_多线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030_py高级使用/004_线程同步.py" beforeDir="false" afterPath="$PROJECT_DIR$/030_py高级使用/004_线程同步.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,7 +37,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -106,8 +103,24 @@
       <workItem from="1641878765015" duration="82000" />
       <workItem from="1641878871395" duration="431000" />
       <workItem from="1641879336917" duration="20096000" />
-      <workItem from="1641956183131" duration="3329000" />
+      <workItem from="1641956183131" duration="3544000" />
+      <workItem from="1642128347261" duration="9981000" />
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <created>1642062994320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642062994320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updates 进程和线程">
+      <created>1642144367607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642144367607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +136,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <MESSAGE value="updates 进程和线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates 进程和线程" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyProject001$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1641955423121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
