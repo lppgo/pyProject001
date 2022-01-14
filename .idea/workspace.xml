@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/006_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/007_日期和时间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/008_内置函数.py" afterDir="false" />
+    <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/010_py基础语法/025_property_装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_py基础语法/026_enum_枚举类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_py基础语法/027_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030_py高级使用/009_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030_py高级使用/010_进程和线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030_py高级使用/011_multiprocessing_多进程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030_py高级使用/012_进程间通信.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/001_socket_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/001_socket_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/002_smtp_发送邮件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/003_多线程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/003_多线程.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/004_线程同步.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/005_线程安全队列queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_网络编程/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010_py基础语法/019_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/019_pickle_序列化.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\pyProject001\030_py高级使用" />
+      <recent name="E:\pyProject001\010_py基础语法" />
       <recent name="E:\pyProject001\030_网络编程" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
