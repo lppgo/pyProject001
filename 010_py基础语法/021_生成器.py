@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+""
 """ 
       ---------------- 生成器 generator ---------------
 
@@ -13,6 +14,10 @@
 
 在 for 循环中会自动调用 next();
 
+generator函数和普通函数的执行流程不一样。
+普通函数是顺序执行，遇到return语句或者最后一行函数语句就返回。
+而变成generator的函数，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行;
+
 """
 
 import sys
@@ -21,7 +26,7 @@ import sys
 def fibonacci(n):
     a, b, counter = 0, 1, 0
     while True:
-        if(counter >= n):
+        if counter >= n:
             return
         yield a
         a, b = b, a + b

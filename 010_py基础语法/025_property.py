@@ -2,8 +2,8 @@
 
 
 """
-  ------------ @property装饰器  ----------------
-Python内置的@property装饰器就是负责把一个方法变成属性调用。
+  ------------ @property  ----------------
+Python内置的@property就是负责把一个方法变成属性调用。
 此时，@property本身又创建了另一个装饰器@score.setter，负责把一个setter方法变成属性赋值
 """
 

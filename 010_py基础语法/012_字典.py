@@ -1,8 +1,9 @@
 #! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
-# -----------------------------字典dict (kv)-----------------------
+""
 """ 
+-----------------------------字典dict (kv)-----------------------
 List列表是有序的对象集合，
 Dictionary字典(Map)是无序的对象集合
 两者之间的区别在于: 
@@ -37,7 +38,7 @@ else:
 
 
 # 遍历字典
-knights = {'one': 'Go', 'two': "Python", 3: 'Java', 4: 'C'}
+knights = {"one": "Go", "two": "Python", 3: "Java", 4: "C"}
 
 " 使用items()可以获取dict的k,v "
 for k, v in knights.items():

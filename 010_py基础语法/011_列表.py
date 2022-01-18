@@ -1,10 +1,9 @@
 #! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
-# -----------------------------列表list-----------------------
-
-
-""" 
+""
+"""
+-----------------------------列表list----------------------- 
 List 列表可以完成大多数集合类的数据结构实现。列表中元素的类型可以不相同，它支持数字，字符串甚至可以包含列表（所谓嵌套
 List 是写在[]之间，用逗号分隔的元素列表
 
@@ -60,14 +59,14 @@ print(multi_list[1][2])  # 打印第2维索引是2的元素
 
 # ----------------------------- 遍历 --------------------------
 # 在序列中遍历时，索引位置和对应值可以使用 enumerate() 函数同时得到:
-for i, v in enumerate(['tic', 'tac', 'toe']):
+for i, v in enumerate(["tic", "tac", "toe"]):
     print(i, v)
 
 # 同时遍历两个或更多的序列，可以使用 zip() 组合:
-questions = ['name', 'quest', 'favorite color']
-answers = ['lancelot', 'the holy grail', 'blue']
+questions = ["name", "quest", "favorite color"]
+answers = ["lancelot", "the holy grail", "blue"]
 for q, a in zip(questions, answers):
-    print('What is your {0}?  It is {1}.'.format(q, a))
+    print("What is your {0}?  It is {1}.".format(q, a))
 
 # 要反向遍历一个序列，首先指定这个序列，然后调用 reversed() 函数
 # for i in range(1, 10, 2):
