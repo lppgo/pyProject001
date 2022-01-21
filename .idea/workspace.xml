@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="发送邮件">
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/028_filter_map_reduce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/029_不定参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/030_debugger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/031_三目运算符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/032_decorators_装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/032_在函数中嵌入装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/032_装饰器类class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/033_return返回值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/020_jobs/001_每日jobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/014_virtualenv_虚拟环境.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/015_coroutine_协程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030_py高级使用/016_函数缓存.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010_py基础语法/034_单元测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/011_元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/011_元组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/011_列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/011_列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/012_字典.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/012_字典.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/012_集合set.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/012_集合set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/015_错误处理try.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/015_错误处理try.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/021_生成器.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/021_生成器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_py基础语法/025_property_装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/025_property.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +42,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/030_py高级使用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/010_py基础语法" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pyProject001\030_py高级使用" />
       <recent name="E:\pyProject001\010_py基础语法" />
+      <recent name="E:\pyProject001\030_py高级使用" />
       <recent name="E:\pyProject001\030_网络编程" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -118,6 +100,7 @@
       <workItem from="1641879336917" duration="20096000" />
       <workItem from="1641956183131" duration="3329000" />
       <workItem from="1642381747418" duration="32573000" />
+      <workItem from="1642745279466" duration="526000" />
     </task>
     <servers />
   </component>
