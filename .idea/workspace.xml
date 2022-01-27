@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962a5da2-c952-4801-80ac-1484d4d8180a" name="Changes" comment="发送邮件">
-      <change afterPath="$PROJECT_DIR$/010_py基础语法/034_单元测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020_jobs/002_发送邮件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyProject001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyProject001.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010_py基础语法/034_单元测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/010_py基础语法/034_单元测试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/020_jobs/001_每日jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/020_jobs/001_每日jobs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -100,7 +105,10 @@
       <workItem from="1641879336917" duration="20096000" />
       <workItem from="1641956183131" duration="3329000" />
       <workItem from="1642381747418" duration="32573000" />
-      <workItem from="1642745279466" duration="526000" />
+      <workItem from="1642745279466" duration="1315000" />
+      <workItem from="1642747694015" duration="170000" />
+      <workItem from="1642832824510" duration="967000" />
+      <workItem from="1643016233226" duration="4786000" />
     </task>
     <servers />
   </component>

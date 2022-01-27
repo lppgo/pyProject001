@@ -14,7 +14,7 @@ from airflow.utils.dates import days_ago
 default_args = {
     "owner": "airflow",
     "depends_on_past": False,
-    "email": ["golpp@qq.com"],
+    "email": ["3205577372@qq.com"],  # 告警通知邮箱地址
     "email_on_failure": False,
     "email_on_retry": False,
     "retries": 3,
@@ -57,7 +57,7 @@ with DAG(
     t1 = SSHOperator(
         task_id="datetime_1",
         ssh_conn_id="wsl2",
-        command="date +'%Y-%m-%d %H:%M:%S' >> /home/lucas/tmp/everyday.log",
+        command="adate +'%Y-%m-%d %H:%M:%S' >> /home/lucas/tmp/everyday.log",
     )
 
     # t2 = SSHOperator(
