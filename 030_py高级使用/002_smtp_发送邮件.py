@@ -9,13 +9,19 @@ Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，sm
 
 # coding:utf-8
 import smtplib
-from email.mime.text import MIMEText
 from email.header import Header
+from email.mime.text import MIMEText
 
 # 第三方 SMTP 服务
 mail_host = "smtp.qq.com"  # 设置服务器
 mail_user = "golpp@qq.com"  # 用户名
-mail_pass = "afdcujjzqokzbaca"  # 口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格
+# zmbleoejjnrnjdfh
+# afdcujjzqokzbaca
+# bogkqitesijmbabj
+# satnxkpdoyvljgij
+# pqhrmxvxdmjcjbja
+# pewspqkduwzrjiha
+mail_pass = "pewspqkduwzrjiha"  # 口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格
 
 
 sender = "golpp@qq.com"

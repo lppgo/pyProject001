@@ -1,3 +1,4 @@
+
 print("hello world")
 
 print("hi")
@@ -28,3 +29,21 @@ print('------------------------------')
 
 print('hello\nrunoob')      # 使用反斜杠(\)+n转义特殊字符
 print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字符串，不会发生转义
+
+
+# 输入输出 input
+# | %d | 整数 || %f | 浮点数 || %s | 字符串 || %x | 十六进制整数 |
+# %% 可以避免%被转义
+
+print("请输入name:")
+name=input()
+age=28
+print("您输入的 name = ",name)
+print("您输入的 name = {}".format(name))
+print("name = {0} , age = {1}".format(name,age))
+print("name = %s , age = %d"%(name,age))
+
+# print 格式化输出
+# 格式化整数和浮点数还可以指定是否补0和整数与小数的位数
+print("%2d---%02d"%(1,3)) # " 1---03"
+print('%.2f' % 3.1415926) # "3.14"
