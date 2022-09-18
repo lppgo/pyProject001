@@ -16,7 +16,7 @@
  """
 
 # 创建一个集合
-mySet = {"C", "C++", "Ruby", "PHP", "JAVA", "Python", "Go", "Rust", "C++"}
+mySet = {"C", "C++", "Ruby", "PHP", "JAVA", "Python", "Go", "Rust", "C++",100,99,100}
 print(mySet)  # 输出集合，重复的元素被自动去掉
 
 # 成员测试

@@ -1,6 +1,8 @@
-#!/usr/bin/python
+# !/usr/bin/env python3
 
-import sys  # 引入sys模块
+import sys
+
+# 引入sys模块
 
 """ 
             --------------- iterator 迭代器 --------------------

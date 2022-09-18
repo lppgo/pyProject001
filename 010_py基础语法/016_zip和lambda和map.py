@@ -11,11 +11,11 @@ b = [4, 5]
 c = [4, 5, 6, 7, 8]
 ziped = zip(a, b)  # zip 压缩，返回一个对象
 print(ziped)  # <zip object at 0x7f0d83540f00>
-print(list(ziped))  # list() 转为一个list列表 [(1, 4), (2, 5), (3, 6)]
+print(list(ziped))  # list() 转为一个list列表 [(1, 4), (2, 5)]
 
-print(list(zip(a, c)))  # 元素个数与最短的列表一致
+print(list(zip(a, c)))  # 元素个数与最短的列表一致  [(1, 4), (2, 5), (3, 6)]
 
-print("list(zip(a,a,b))=", list(zip(a, a, b)))
+print("list(zip(a,a,b))=", list(zip(a, a, b))) # list(zip(a,a,b))= [(1, 1, 4), (2, 2, 5)]
 
 # zip()压缩， zip(*)解压
 a1, a2 = zip(*zip(a, b))

@@ -14,10 +14,14 @@ tuple + * 可以对元组进行组合和复制
 """
 
 # 定义元组tuple
-a_tuple = (1, 2, 3, 4, 5, "lucas")
-for x in a_tuple:
-    print(x)
-
 b_tuple = 10, 12, 214, 1245
 for index in range(len(b_tuple)):
     print("index=", index, "elements in b_tuple", b_tuple[index])
+
+a_tuple = (1, 2, 3, 4, 5, "lucas")
+for x in a_tuple:
+    print(x)
+# tuple是不可变类型，可以用del语句删除整个元组
+print(a_tuple)
+del a_tuple
+# print(a_tuple)

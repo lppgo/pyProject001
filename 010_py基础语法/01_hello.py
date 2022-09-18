@@ -1,7 +1,7 @@
+# /usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 print("hello world")
-
-print("hi")
 
 print('lucas:"hi python"')
 print("lucas:'hi python'")
@@ -26,7 +26,6 @@ print(str * 2)             # 输出字符串两次
 print(str + '你好')         # 连接字符串
 
 print('------------------------------')
-
 print('hello\nrunoob')      # 使用反斜杠(\)+n转义特殊字符
 print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字符串，不会发生转义
 
@@ -38,7 +37,7 @@ print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字
 print("请输入name:")
 name=input()
 age=28
-print("您输入的 name = ",name)
+print("您输入的 name =",name)
 print("您输入的 name = {}".format(name))
 print("name = {0} , age = {1}".format(name,age))
 print("name = %s , age = %d"%(name,age))

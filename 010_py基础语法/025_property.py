@@ -26,6 +26,7 @@ s = Student()
 s.score = 199  # setter
 print(s.score)  # getter
 
+print(s.score)
 print(s)
 print(repr(s))
 

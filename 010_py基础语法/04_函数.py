@@ -5,13 +5,10 @@
 def welcom(name):
     print("Welcom %s" % (name))
 
-
 def area(weigh, heigh):
     return weigh * heigh
 
-
 welcom("lucas")
-
 print(area(10, 20))
 
 a = 88
@@ -24,7 +21,7 @@ print("a     addr: %d" % (id(a)))
 """ 
     ----------------- 可更改(mutable)与不可更改对象(immutable) --------------------- 
 
-不可变类型: Number,String,Tuple
+不可变类型: Number(int,float),String,Tuple
         变量赋值 a=5 后再赋值 a=10，这里实际是新生成一个 int 值对象 10，再让 a 指向它，而 5 被丢弃，不是改变 a 的值，相当于新生成了 a ;
 
 可变类型: List,Set,Dict
