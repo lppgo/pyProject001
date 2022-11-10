@@ -5,8 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/ipc"
+	// "github.com/apache/arrow/go/arrow/array"
+	// "github.com/apache/arrow/go/arrow/ipc"
+	"github.com/apache/arrow/go/v11/arrow/array"
+	"github.com/apache/arrow/go/v11/arrow/ipc"
 )
 
 func main() {
