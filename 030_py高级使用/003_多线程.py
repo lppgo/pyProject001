@@ -28,6 +28,14 @@ if __name__ == "__main__":
     t1.start()
     t2.start()
 
+    #
+    t1.setName("t1")
+    t2.setName("t2")
+    t1Name = t1.getName()
+    t2Name = t2.getName()
+    print("---t1---:%s" % t1Name)
+    print("---t2---:%s" % t2Name)
+
     # 等待线程执行完毕，否则会不等待线程执行完毕就执行下面的代码了，因为线程执行是异步的
     t1.join()
     t2.join()

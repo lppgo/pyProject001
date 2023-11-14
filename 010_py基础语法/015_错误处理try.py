@@ -4,24 +4,24 @@
 
 fname = "111.txt"
 
-# try:
-#     file = open(fname, "r+")
-#     print(file.read())
-#     # print(file.readline())
-#     # print(file.readlines())
-#     # print(file.read(10))
-# except Exception as err:
-#     print("open Error:", err)
-#     opt = input("do you want to create this file (yes/no):")
-#     if opt == "yes":
-#         file = open(fname, "w")
-#         print(fname, "is created successed!")
-#     else:
-#         print("exit ...")
-#         pass
-# else:
-#     file.write("hi: try !\n")
-#     file.close()
+try:
+    file = open(fname, "r+")
+    print(file.read())
+    # print(file.readline())
+    # print(file.readlines())
+    # print(file.read(10))
+except Exception as err:
+    print("open Error:", err)
+    opt = input("do you want to create this file (yes/no):")
+    if opt == "yes":
+        file = open(fname, "w")
+        print(fname, "is created successed!")
+    else:
+        print("exit ...")
+        pass
+else:
+    file.write("hi: try !\n")
+    file.close()
 
 
 # 迭代一个文件对象，然后读取每行

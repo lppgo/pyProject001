@@ -5,6 +5,12 @@
   ------------ @property  ----------------
 Python内置的@property就是负责把一个方法变成属性调用。
 此时，@property本身又创建了另一个装饰器@score.setter，负责把一个setter方法变成属性赋值
+
+
+@property 装饰器用于将一个方法转化为只读属性。通过使用 @property，你可以像访问属性一样调用这个方法，而不需要使用括号
+
+@property 和 @setter 一起使用
+有时候，你可能希望不仅能够获取属性的值，还能够设置属性的值。这时可以使用 @setter 装饰器。
 """
 
 
@@ -28,7 +34,7 @@ print(s.score)  # getter
 
 print(s.score)
 print(s)
-print(repr(s))
+print(repr(s)) # repr() 函数是一个内建函数，用于获取对象的“官方”字符串表示形式。它返回一个字符串，通常可以通过 eval() 函数重新生成原始对象
 
 
 """ 

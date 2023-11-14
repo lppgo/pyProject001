@@ -2,61 +2,24 @@
 # coding: utf-8
 
 from functools import wraps
-
-
-class logit(object):
-    def __init__(self, logfile="out.log"):
-        self.logfile = logfile
-
-    def __call__(self, func):
-        @wraps(func)
-        def wrapped_function(*args, **kwargs):
-            log_string = func.__name__ + "was called"
-            print("log_string : {}".format(log_string))
-            with open(self.logfile, "a") as f:
-                f.write(log_string + "\n")
-            # 现在，发送一个通知
-            self.notify()
-            return func(*args, **kwargs)
-
-        return wrapped_function
-
-    def notify(self):
-        # logit 只打印日志
-        pass
-
-
-""" 这个实现有一个附加优势，在于比嵌套函数的方式更加整洁，而且包裹一个函数还是使用跟以前一样的语法 """
-
-
-@logit
-def myfunc1():
-    pass
-
-
-""" 现在，我们给logit创建子类，来添加email的功能 """
-
-
-class email_logit(logit):
-    """
-    一个logit的实现版本，可以在函数调用时发送email给管理员
-    """
-
-    def __init__(self, email="admin@myproject.com", *args, **kwargs):
-        self.email = email
-        super(email_logit, self).__init__(*args, **kwargs)
-
-    def notify(self):
-        # 发送一封email到self.email
-        # 这里就不做实现了
-        pass
-
-
-@email_logit
-def myfunc2():
-    pass
-
-
 """
-从现在起，@email_logit将会和@logit产生同样的效果，但是在打日志的基础上，还会多发送一封邮件给管理员
+类装饰器是 Python 中一种高级的装饰器形式，它允许你使用类来装饰函数或方法。
+类装饰器通常需要实现 __init__ 和 __call__ 方法，其中 __init__ 在装饰器实例化时调用，而 __call__ 在实际装饰过程中调用
 """
+
+class MyDecorator:
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        print("Decorating the function")
+        result = self.func(*args, **kwargs)
+        print("Function decorated")
+        return result
+
+@MyDecorator
+def my_function():
+    print("Inside the function")
+
+# 调用装饰后的函数
+my_function()

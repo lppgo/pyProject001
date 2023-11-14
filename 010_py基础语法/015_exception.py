@@ -2,23 +2,23 @@
 
 
 """ ---------------------- try 处理异常Exception ----------------- """
-# while True:
-#     try:
-#         x = int(input("Please input numbers:"))
-#     except (OSError, RuntimeError, ImportError, IOError, TypeError, ValueError, NameError):
-#         print("您输入的不是数字，请重新输入!")
-#     else:
-#         print("{} Yes !".format(x))
-#     finally:
-#         print("再来!")
+while True:
+    try:
+        x = int(input("Please input numbers:"))
+    except (OSError, RuntimeError, ImportError, IOError, TypeError, ValueError, NameError):
+        print("您输入的不是数字，请重新输入!")
+    else:
+        print("{} Yes !".format(x))
+    finally:
+        print("再来!")
 
 
 """ ------------------------ raise 抛出异常 ------------------------ """
 # raise 用来抛出异常
 # raise [Exception[, args[, traceback]]]
-# x = 10
-# if x > 5:
-#     raise Exception("x={},x不能大于5!".format(x))
+x = 10
+if x > 5:
+    raise Exception("x={},x不能大于5!".format(x))
 
 """ ------------------------ 用户自定义异常 ------------------------ """
 # 你可以通过创建一个新的异常类来拥有自己的异常，异常类继承自Exception类，可以直接继承或者间接继承。

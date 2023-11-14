@@ -10,7 +10,7 @@ amount = 0
 def changeValue(x):
     global amount
     amount = amount + x
-    amount = amount - x
+    # amount = amount - x
 
 
 # 批量运行改值
