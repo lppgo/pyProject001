@@ -1,0 +1,176 @@
+09:49:01|INFO|info info: x=42
+09:49:01|ERROR|An error has been caught in function '<module>', process 'MainProcess' (559637), thread 'MainThread' (140092172073856):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7f69befc3130>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+09:49:54|INFO    |info info: x=42
+09:49:54|ERROR   |An error has been caught in function '<module>', process 'MainProcess' (560252), thread 'MainThread' (139822942006144):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7f2b0f9ef130>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+09:52:03|INFO  |info info: x=42
+09:52:03|ERROR |An error has been caught in function '<module>', process 'MainProcess' (561778), thread 'MainThread' (140335133535104):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7fa2509d7130>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+09:52:03|INFO  |用户登录
+09:52:03|ERROR |登录失败
+09:54:30|INFO  |info info: x=42
+09:54:30|ERROR |An error has been caught in function '<module>', process 'MainProcess' (563554), thread 'MainThread' (139785453493120):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7f2255217130>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+09:54:30|INFO  |用户登录
+09:54:30|INFO  |结果：49999995000000
+09:54:33|INFO  |info info: x=42
+09:54:33|ERROR |An error has been caught in function '<module>', process 'MainProcess' (563799), thread 'MainThread' (140372476115840):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7fab02683130>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+09:54:33|INFO  |用户登录
+09:54:33|INFO  |结果：49999995000000
+10:00:14|INFO  |info info: x=42
+10:00:14|ERROR |An error has been caught in function '<module>', process 'MainProcess' (567217), thread 'MainThread' (140675533110144):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 24, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7ff19202a200>
+
+  File "/root/proj/py/logger/main.py", line 22, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:00:14|INFO  |用户登录
+10:00:14|INFO  |结果：49999995000000
+10:08:57|INFO  |info info: x=42
+10:08:57|ERROR |An error has been caught in function '<module>', process 'MainProcess' (571413), thread 'MainThread' (140636990638976):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7fe898b72b90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:08:57|INFO  |用户登录
+10:08:57|INFO  |结果：49999995000000
+10:09:18|INFO  |info info: x=42
+10:09:18|ERROR |An error has been caught in function '<module>', process 'MainProcess' (571789), thread 'MainThread' (140661052152704):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7fee32e4eb90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:09:18|INFO  |用户登录
+10:09:18|INFO  |结果：49999995000000
+10:09:34|INFO  |info info: x=42
+10:09:34|ERROR |An error has been caught in function '<module>', process 'MainProcess' (572125), thread 'MainThread' (140717246778240):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7ffb485aeb90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:09:34|INFO  |用户登录
+10:09:34|INFO  |结果：49999995000000
+10:09:38|INFO  |info info: x=42
+10:09:38|ERROR |An error has been caught in function '<module>', process 'MainProcess' (574241), thread 'MainThread' (139814487169920):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7f2917afeb90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:09:38|INFO  |用户登录
+10:09:38|INFO  |结果：49999995000000
+10:10:00|INFO  |info info: x=42
+10:10:00|ERROR |An error has been caught in function '<module>', process 'MainProcess' (574640), thread 'MainThread' (140691562617728):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7ff54d75eb90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:10:00|INFO  |用户登录
+10:10:00|INFO  |结果：49999995000000
+10:10:29|INFO  |info info: x=42
+10:10:29|ERROR |An error has been caught in function '<module>', process 'MainProcess' (575095), thread 'MainThread' (140385217911680):
+Traceback (most recent call last):
+
+> File "/root/proj/py/logger/main.py", line 32, in <module>
+    risky_div(0)
+    └ <function risky_div at 0x7fadf9e46b90>
+
+  File "/root/proj/py/logger/main.py", line 30, in risky_div
+    return 10 / x
+                └ 0
+
+ZeroDivisionError: division by zero
+10:10:29|INFO  |用户登录
+10:10:29|INFO  |结果：49999995000000
